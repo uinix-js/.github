@@ -1,38 +1,41 @@
 # `uinix-js`
 
-Functional minimalistic UI development. JS-first and framework agnostic.
+Functional and minimal UI development. Configurable, stable, JS-first APIs.
 
-https://uinix.dev 
+Learn more at https://uinix.dev.
 
 ## Packages
-- [uinix-fp]
-- [uinix-theme]
-- [uinix-ui]
+- [`uinix-fp`][uinix-fp]
+- [`uinix-theme`][uinix-theme]
+- [`uinix-ui`][uinix-ui]
 
 ## The `uinix` philosophy
-All `uinix-js` packages are built with the `uinix` philosophy in mind.
+All `uinix-js` packages are built with the `uinix` philosophy in mind.  The `uinix` philosophy borrows spiritually from the [Unix philosophy], with contextual adjustments for UI development.
 
-The `uinix` philosophy borrows spiritually from the [Unix philosophy], with contextual adjustments for UI development.
+### Functional
+APIs are functional (practical) for common UI development needs.
 
-The following principles summarize the `uinix` philosophy:
+> Make it work, make it right, make it fast.
 
-### Functional minimalism
-APIs are simple and clear, and reduced to a minimum.  Programs should do one thing and do it well.
+## Minimal
+APIs are simple and clear, and reduced to a minimal.
 
-### Interoperable
-Programs should be easily compsable and work well together.
+> Do one thing, and do it well.
 
-### Framework-agnostic and JS-first
-`uinix-js` packages are framework/build/tool-free.  It runs as plain simple Javascript.  We confidently observe that all frameworks are ephemeral, and only JS will remain indefinitely as the universal interface for the web.
+### Configurable
+APIs support reasonable configurations and avoid opinionated decisions.
 
-### Your configuration, your rules 🤘
-APIs aim to be unopinionated, but provide relevant configuration to domains to customize to their needs.
+> Your code, your rules 🤘.
 
-### Dependency-less
-Dependencies are sparingly used or, at the very least, carefully considered.  You are installing and using just `uinix-js` packages, and dependencies should never surface and affect usage.
+### Stable
+APIs are well-defined and focus on core offerings.  Advanced use cases are deferred to implementors through configuration or recommended with presets.
 
-### Update-free
-The goal is to arrive to a stable and update-free API.
+> Develop with confidence without the stress of keeping up.
+
+### JS-first
+APIs are written in simple plain JS.  No build/tools/frameworks required.
+
+> We confidently state that any framework is ephemeral, and only JS is the safe foundation to develop on.
 
 ## License
 
