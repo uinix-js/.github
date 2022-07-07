@@ -17,7 +17,7 @@ APIs are functional (practical) for common UI development needs.
 
 > Make it work, make it right, make it fast.
 
-## Minimal
+### Minimal
 APIs are simple and clear, and reduced to a minimal.
 
 > Do one thing, and do it well.
