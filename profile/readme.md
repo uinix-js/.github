@@ -1,41 +1,39 @@
-# `uinix-js`
+# uinix-js
 
-Functional and minimal UI development. Configurable, stable, JS-first APIs.
+As minimal as it gets for rapidly building UIs.
+
+Framework-agnostic, build-free and configurable. Your UI your rules 🤘.
 
 Learn more at https://uinix.dev.
 
 ## Packages
-- [`uinix-fp`][uinix-fp]
-- [`uinix-theme`][uinix-theme]
-- [`uinix-ui`][uinix-ui]
+- [uinix-fp]
+- [uinix-theme]
+- [uinix-ui]
 
-## The `uinix` philosophy
-All `uinix-js` packages are built with the `uinix` philosophy in mind.  The `uinix` philosophy borrows spiritually from the [Unix philosophy], with contextual adjustments for UI development.
-
-### Functional
-APIs are functional (practical) for common UI development needs.
-
-> Make it work, make it right, make it fast.
+## The uinix philosophy
+All uinix-js packages are built with the uinix philosophy in mind.  The uinix philosophy borrows spiritually from the [Unix philosophy], with contextual adjustments for UI development.
 
 ### Minimal
-APIs are simple and clear, and reduced to a minimal.
+APIs are minimal but solves a wide range of UI problems effectively when used appropriately.
 
-> Do one thing, and do it well.
+> Do more with less.
 
 ### Configurable
 APIs support reasonable configurations and avoid opinionated decisions.
 
 > Your code, your rules 🤘.
 
-### Stable
-APIs are well-defined and focus on core offerings.  Advanced use cases are deferred to implementors through configuration or recommended with presets.
-
-> Develop with confidence without the stress of keeping up.
-
 ### JS-first
-APIs are written in simple plain JS.  No build/tools/frameworks required.
+Solve the domain problem in JS and not in specific frameworks.
 
-> We confidently state that any framework is ephemeral, and only JS is the safe foundation to develop on.
+> APIs are usable without frameworks or build systems (e.g. directly in browsers).
+
+### Stable
+APIs are intended to be stable, dependency-light, and update-free.
+
+> This builds confidence for both APIs maintainers and consumers.
+
 
 ## License
 
